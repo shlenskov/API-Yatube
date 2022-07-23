@@ -43,9 +43,9 @@ class CommentViewSet(viewsets.ModelViewSet):
         serializer.save(author=self.request.user, post=post)
 
 
-class CreateListViewSet(mixins.CreateModelMixin,
-                            mixins.ListModelMixin,
-                            viewsets.GenericViewSet):
+class CreateListViewSet(
+    mixins.CreateModelMixin, mixins.ListModelMixin, viewsets.GenericViewSet
+):
     pass
 
 
