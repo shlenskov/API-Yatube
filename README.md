@@ -7,7 +7,7 @@ Yatube - социальная сеть. Пользователи могут со
 Клонировать репозиторий и перейти в него в командной строке:  
   
 ```  
-git clone https://git@github.com:shlenskov/api_final_yatube.git  
+git clone git@github.com:shlenskov/API-Yatube.git  
   
 ```  
   
